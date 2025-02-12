@@ -1,10 +1,10 @@
 import { View, Pressable, Text, Image } from "react-native";
-import PagerView from 'react-native-pager-view';
+// import PagerView from 'react-native-pager-view';
 
 export function Banner() {
     return (
         <View className="w-full h-36 rounded-2xl mt-5 mb-4">
-            <PagerView>
+            {/* <PagerView> */}
                 {/* <Pressable 
                     className="w-full h-36 rounded-2xl" 
                     key="1"
@@ -15,7 +15,7 @@ export function Banner() {
                         className="w-full h-36 rounded-2xl"
                     ></Image>
                 </Pressable> */}
-            </PagerView>
+            {/* </PagerView> */}
         </View>
     );
 }
