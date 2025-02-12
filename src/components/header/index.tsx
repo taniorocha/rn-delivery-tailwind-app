@@ -11,7 +11,7 @@ export function Header() {
                 <Text className="text-center text-sm text-slate-800">Localização</Text>
                 <View className="flex-row items-center justify-center gap-1">
                     <Feather name="map-pin" size={14} color="#FF0000"></Feather>
-                    <Text className="text-lg font-bold">Campo Grande</Text>
+                    <Text className="text-lg font-bold">Fortaleza</Text>
                 </View>
             </View>
             <Pressable className="w-10 h-10 bg-white rounded-full flex justify-center items-center">
